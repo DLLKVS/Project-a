@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:#ffb3c1;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+@media only screen and (max-width:600px){
+    body{
+        background-color: lightblue;
+        font-size: 16px;
+    }
+}
+
+@media only screen and(min-width:601px){
+    body{
+        background-color: lightgray;
+        font-size: 20px;
+    }
+}
+.container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-left: 20px;
+}
+.div1{
+    background-color: #ff758f;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    
+}
+.div2{
+    background-color: #ff758f;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.div3{
+    background-color: #ff758f;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+}
+.image-container{
+    max-width: 100%;
+    width: auto;
+}
+.container2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+    margin-left: 20px;
+}
+.div4{
+    background-color:#ff758f;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 10px;
+    
+}
+.div5{
+    background-color: #ff758f;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.div6{
+    background-color: #ff758f;
+    background-position: center;
+    height: 300px;
+    width: 300px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.navbar-nav{
+display: flex;
+justify-content: space-around;
+align-items: center;
+color: white;
+margin-top: 10px;
+margin-bottom: 20px;
+}
+.navbar-nav li{
+    flex: 1;
+    font-weight: 10px;
+    text-align: center;
+}
+.navbar{
+    color: white;
+    background-color:#a4133c
+}
+button[type="submit"]{
+    visibility: hidden;
+}
